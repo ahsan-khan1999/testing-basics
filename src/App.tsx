@@ -5,12 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-  
-        <a>
-          Learn React
+
+      <a>
+        Learn React
         </a>
-        <input placeholder='press me'  style={{height:80,width:150}}/>
-      
+      <input placeholder='press me' style={{ height: 80, width: 150 }} />
+
     </div>
   );
 }

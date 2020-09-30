@@ -8,7 +8,7 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument();
 });
 test('another test',() => {
-  const {getAllByPlaceholderText} = render(<App />)
-  const element = getAllByPlaceholderText(/press me/i);
+  const {getByPlaceholderText} = render(<App />)
+  const element = getByPlaceholderText(/PRESS me/i);
   expect(element).toBeInTheDocument();
 })
